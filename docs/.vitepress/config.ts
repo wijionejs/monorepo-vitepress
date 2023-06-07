@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Flow UI Web Core docs",
   description: "A VitePress Site",
-  base: "/",
+  base: "/monorepo-vitepress/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
