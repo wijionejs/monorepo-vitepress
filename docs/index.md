@@ -13,6 +13,12 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: Package 1
+      link: /package-1
+    - theme: alt
+      text: Package 2
+      link: /package-2
 
 features:
   - title: Feature A
