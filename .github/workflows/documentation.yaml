@@ -38,6 +38,7 @@ jobs:
         uses: actions/deploy-pages@v1
   echo_console:
     runs-on: ubuntu-latest
+    needs: deploy_docs
     steps:
       - name: Echo to console
         run: echo "Hello world"
