@@ -5,7 +5,7 @@ on:
     branches:
       - master
 jobs:
-  deploy:
+  deploy_docs:
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -36,3 +36,8 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v1
+  echo_console:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo to console
+        run: echo "Hello world"
