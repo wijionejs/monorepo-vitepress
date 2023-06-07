@@ -21,7 +21,13 @@ jobs:
         with:
           node-version: 16
           cache: npm
-      - run: npm ci
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        id: pnpm-install
+        with:
+          version: 8
+          run_install: false
+      - run: pnpm install --frozen-lockfile --ignore-scripts --prefer-offline
       - name: Build
         run: npm run docs:build
       - uses: actions/configure-pages@v2
