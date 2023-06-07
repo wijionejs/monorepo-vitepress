@@ -25,12 +25,5 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  },
-  rewrites: {
-    'packages/:pkg/docs': ':pkg',
-    'packages/package-1/docs': "package-1",
-    'packages/package-2/docs': "package-2",
-    'package-1': "package-1",
-    'package-2': "package-2",
   }
 })

@@ -15,10 +15,10 @@ hero:
       link: /api-examples
     - theme: alt
       text: Package 1
-      link: /package-1
+      link: /package-1/guide
     - theme: alt
       text: Package 2
-      link: /package-2
+      link: /package-2/guide
 
 features:
   - title: Feature A
