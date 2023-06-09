@@ -7,7 +7,7 @@ on:
     paths:
       - "docs/**"
       - ".vitepress/**"
-      - "test-folder/**"
+      - "**/test-folder/**"
 jobs:
   deploy_docs:
     runs-on: ubuntu-latest
