@@ -44,6 +44,8 @@ jobs:
   #     run: echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
   echo_console:
     runs-on: ubuntu-latest
+    environment:
+      url: "https://google.com"
     steps:
       - name: Echo to console
         run: echo "Hello world"
